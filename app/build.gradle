@@ -7,6 +7,8 @@ plugins {
 android {
     namespace 'xyz.forge.manager'
     compileSdk 33
+    buildToolsVersion "34.0.4"
+    ndkVersion '26.1.10909125'
     
     defaultConfig {
         applicationId "xyz.forge.manager"
@@ -45,4 +47,5 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.android.material:material:1.9.0")
+    implementation("com.airbnb.android:lottie:6.4.0")
 }

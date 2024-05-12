@@ -11,6 +11,43 @@ dependencyResolutionManagement {
   repositories {
     google()
     mavenCentral()
+    jcenter()
+        maven { 
+            url 'https://jitpack.io'
+            name 'JitPack'
+            }
+            maven {
+            url "https://plugins.gradle.org/m2/"
+            name 'OffcialGradle'
+            }
+            maven {
+            url 'https://repo.hortonworks.com/content/repositories/releases'
+            name 'HortanWorks'
+            }
+            maven {
+            url 'https://dl.google.com/dl/android/maven2'
+            name 'Google Maven'
+            }
+            maven {
+            url 'https://maven.atlassian.com/content/repositories/atlassian-public'
+            name 'Atlassian'
+            }
+            maven {
+            url 'https://oss.sonatype.org/content/repositories/releases'
+            name 'Sonatype'
+            }
+            maven {
+            url 'https://repo.spring.io/plugins-release'
+            name 'Spring Plugins'
+            }
+            maven {
+            url 'https://repo.spring.io/libs-milestone'
+            name 'Spring Milestone'
+            }
+            maven {
+            url 'https://repo.maven.apache.org/maven2'
+            name 'Apache Maven'
+            }
   }
 }
 
